@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(){
+void main(){
     int num;
     scanf("%i",&num1);
     if(num%5==0 and num%11==0){
@@ -8,5 +8,4 @@ int main(){
     else{
         printf("Not Divisible");
     }
-    return 0;
 }
