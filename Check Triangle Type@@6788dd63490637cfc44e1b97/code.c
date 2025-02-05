@@ -1,4 +1,4 @@
-#include <sttdio.h>
+#include <stdio.h>
 int main(){
     int side1,side2,side3;
     scanf("%i%i%i",&side1,&side2,&side3);
