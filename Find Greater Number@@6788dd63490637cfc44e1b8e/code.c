@@ -9,5 +9,8 @@ int main()
     else if(num2>num1){
         printf("%i",num2);
     }
+    else{
+        printf("%i",num1);
+    }
     return 0;
 }
