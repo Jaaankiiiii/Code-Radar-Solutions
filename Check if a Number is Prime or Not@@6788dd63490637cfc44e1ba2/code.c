@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int num;
+    int num,factor=1;
     scanf("%i",&num);
-    for(int factor=1,factor<=num,factor++){
-        if(num%factor==0){
+    for(int i=1;i<=num;i++){
+        if(num%i==0){
             factor++;
         }
     }
