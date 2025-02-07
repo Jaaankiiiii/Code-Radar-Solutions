@@ -15,7 +15,7 @@ int main(){
             break;
         case '/':
             if (num2 == 0) {
-                    printf("Error");
+                    printf("error");
                 } else {
                     printf("%i",num1 / num2);
             }
