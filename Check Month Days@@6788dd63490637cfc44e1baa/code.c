@@ -13,6 +13,7 @@ int main(){
                 }
                 else{
                 printf("30");
+                }
             }
         }
         else{
@@ -23,7 +24,7 @@ int main(){
                 printf("30");
             }
         }
-        }
+        
     }
     return 0;
 }
