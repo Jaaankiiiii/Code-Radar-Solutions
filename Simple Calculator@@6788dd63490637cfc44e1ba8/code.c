@@ -15,9 +15,9 @@ int main(){
             break;
         case '/':
             if (num2 == 0) {
-                    printf("Error: Division by zero");
+                    printf("Error");
                 } else {
-                    printf("%i",num1 / num2);  // Typecasting for float division
+                    printf("%i",num1 / num2);
             }
                 break;
         default:
