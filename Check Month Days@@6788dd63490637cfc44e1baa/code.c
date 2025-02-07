@@ -2,7 +2,7 @@
 int main(){
     int month;
     scanf("%i",&month);
-    if(month<12 && month>0){
+    if(month<=12 && month>0){
         if(month==2){
             printf("28");
         }
