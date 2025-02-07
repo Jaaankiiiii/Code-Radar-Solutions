@@ -18,5 +18,8 @@ int main(){
             }
         }
     }
+    else{
+        printf("Invalid month");
+    }
     return 0;
 }
