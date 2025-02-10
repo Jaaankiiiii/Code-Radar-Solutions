@@ -6,9 +6,6 @@ int main(){
             if(col<row){
                 printf("*");
             }
-            else{
-                printf(" ");
-            }
         }
     printf(" ");
     }
