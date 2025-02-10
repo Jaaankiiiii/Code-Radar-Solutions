@@ -7,13 +7,9 @@ int main(){
             if(row==0 || row==(num-1)){
                 print("*");
             }
-            else{
-                if(col==0 && col==3){
-                    print("* ");
-                }
-            }
             
         }
     print("\n");
     }
+    return 0;
 }
