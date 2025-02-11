@@ -4,11 +4,11 @@ int main(){
     scanf("%i",&num);
     for(row=num;row>0;row--){
         for(col=num;col>0;col--){
-            if(row<=col){
-                printf("*");
+            if(!(row<=col)){
+                printf(" ");
             }
             else{
-                printf(" ");
+                printf("*");
             }
         }
     printf("\n");
