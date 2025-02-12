@@ -5,7 +5,7 @@ int main(){
     for(row=1;row<=num;row++){
         for(col=1;col<=num;col++){
             if(row<=col){
-                printf("%i ",row);
+                printf("%i ",col);
             }
         }
     printf("\n");
