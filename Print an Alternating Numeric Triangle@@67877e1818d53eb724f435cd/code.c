@@ -5,8 +5,8 @@ int main(){
     int count=1;
     for(row=1;row<=n;row++){
         for(col=1;col<=n;col++){
-            if(row<=col){
-                printf("%i",count);
+            if(col<=row){
+                printf("%i ",count);
                 if(count==1){
                     count=0;
                 }else{
