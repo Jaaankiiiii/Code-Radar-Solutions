@@ -11,7 +11,7 @@ int main(){
     
             if(col>row){
                 printf("%i",col-dec);
-                dec++
+                dec++;
             }else{
             printf("%i",col);
             }
