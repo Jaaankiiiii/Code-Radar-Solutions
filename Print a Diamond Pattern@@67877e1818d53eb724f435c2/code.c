@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int rows,i,j,spaces,k,l,space;
+    int rows,i,j,spaces;
     scanf("%i",&rows);
     for(int i=1;i<=rows;i++){
         for(spaces=1;spaces<=rows-i;spaces++){
@@ -11,14 +11,15 @@ int main(){
         }
     printf("\n");
     }
-    for(int k=rows+1;k<=rows+(rows-1);k++){
-        for(space=-(rows-k);space<=-(rows-(rows+(rows-1)));space--){
+    for(int i=rows-1;i>=1;i--){
+        for(spaces=1;spaces<=rows-i;spaces++){
             printf(" ");
         }
-        for(int l=rows-1;l<=rows;l++){
+        for(int j=1;j<=(2*i-1);j++){
             printf("*");
         }
-    printf("\n");   
+    printf("\n");
     }
     return 0;
+    
 }
