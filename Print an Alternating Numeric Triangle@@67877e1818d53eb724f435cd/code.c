@@ -4,10 +4,8 @@ int main(){
     scanf("%i",&n);
     int count=1;
     for(row=1;row<=n;row++){
-        for(col=1;col<=n;col++){
-            if(col<=row){
-                printf("%i ",(row+col)%2);
-            }
+        for(col=1;col<=row;col++){
+            printf("%i",(col+row)%2)
             
         }
         printf("\n");
