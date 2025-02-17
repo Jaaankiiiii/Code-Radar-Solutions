@@ -2,7 +2,6 @@
 int main(){
     int n,row,col,space;
     scanf("%i",&n);
-    int decrement=1;
     for(row=1;row<=n;row++){
         for(space=1;space<=n-row;space++){
             printf(" ");
