@@ -6,7 +6,7 @@ int main(){
         for(int space=1; space<=(num-row); space++){
             printf(" ");
         }
-        for(col=1; col<=num; col++){
+        for(col=1; col<num; col++){
             printf("%i ",col);
         }
         printf("\n");
