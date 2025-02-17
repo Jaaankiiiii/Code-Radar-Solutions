@@ -4,7 +4,7 @@ int main(){
     scanf("%i",&num);
     for(row=1;row<=num;row++){
         for(col=num;col>=1;col--){
-            if(row<=col){
+            if(col<=row){
                 printf("%i ",col);
             }
         }
