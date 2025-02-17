@@ -5,7 +5,7 @@ int main(){
     int count=1;
     for(row=1;row<=n;row++){
         for(col=1;col<=row;col++){
-            printf("%i",(col+row)%2)
+            printf("%i",(col+row)%2);
             
         }
         printf("\n");
