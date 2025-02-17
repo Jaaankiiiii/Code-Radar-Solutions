@@ -7,6 +7,7 @@ int main(){
             if(row<=col){
                 printf("%i ",col);
             }
+        printf("\n")
         }
     printf("\n");
     }
