@@ -6,13 +6,9 @@ int main(){
     for(row=1;row<=n;row++){
         for(col=1;col<=n;col++){
             if(col<=row){
-                printf("%i ",count);
-                if(count==1){
-                    count=0;
-                }else{
-                    count=1;
-                }
+                printf("%i ",(row+col)%2);
             }
+            
         }
         printf("\n");
     }
