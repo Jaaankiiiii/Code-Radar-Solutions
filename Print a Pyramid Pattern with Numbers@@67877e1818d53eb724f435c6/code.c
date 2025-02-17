@@ -2,7 +2,7 @@
 int main(){
     int num,row,col,space;
     scanf("%i",&num);
-    for(int row=1; row<num ;row++){
+    for(int row=1; row<=num ;row++){
         for(int space=1; space<(num-row); space++){
             printf(" ");
         }
