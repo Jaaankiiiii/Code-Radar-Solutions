@@ -9,8 +9,7 @@ int main(){
         }
         for(col=1;col<=(2*row-1);col++){
             if(col>row){
-                printf("%i",col-decrement);
-                decrement++;
+                printf("%i",col--);
             }else{
             printf("%i",col);
             }
