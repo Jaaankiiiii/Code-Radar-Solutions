@@ -2,7 +2,7 @@
 int main(){
     int n,row,col,space;
     scanf("%i",&n);
-    int dec=2;
+    int dec=1;
     for(row=1;row<=n;row++){
         for(space=1;space<=n-row;space++){
             printf(" ");
@@ -12,7 +12,8 @@ int main(){
             if(col>row){
                 printf("%i",col-dec);
                 dec++;
-            }else{
+            }
+            else{
             printf("%i",col);
             }
         }
