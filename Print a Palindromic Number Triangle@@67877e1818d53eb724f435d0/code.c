@@ -7,10 +7,10 @@ int main(){
         for(space=1;space<=n-row;space++){
             printf(" ");
         }
-        for(col=1;col<=(2*row-1);col++){
+        for(col=1;col<=row;col++){
             printf("%i ",col);
         }
-        for(col=(2*row-2);col>=1;col--){
+        for(col=row-1;col>=1;col--){
             printf("%i ",col);
         }
         printf("\n");
