@@ -8,7 +8,7 @@ int main(){
                 printf("%i",col);
             }
         }
-    printf("\n");
+        printf("\n");
     }
     return 0;
 }
