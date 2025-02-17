@@ -5,9 +5,10 @@ int main(){
     for(row=n+65;row>65;row++){
         for(col=65;col<n+65;col++){
             if(row>=col){
-                printf("%i ",col);
+                printf("%c ",col);
             }
         }
-        return 0;
+        printf("\n");
     }
+    return 0;
 }
