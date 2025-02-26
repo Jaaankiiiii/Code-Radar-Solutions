@@ -11,7 +11,7 @@ int main(){
         int frequency=0;
         int alreadycounted=0;
 
-        for(int k=0;k<n;k++){
+        for(int k=0;k<i;k++){
             if(arr[i]==arr[k]){
                 alreadycounted=1;
             }
