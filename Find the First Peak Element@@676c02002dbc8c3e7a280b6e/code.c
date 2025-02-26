@@ -9,7 +9,11 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]<arr[i+1] && arr[i+1]>arr[i+2]){
             printf("%i",arr[i+1]);
-            return 0;
+            break;
+        }
+        else if(arr[n-2]<arr[n-1]){
+            printf("%i",arr[n-1]);
+            break;
         }
     }
     printf("-1");
