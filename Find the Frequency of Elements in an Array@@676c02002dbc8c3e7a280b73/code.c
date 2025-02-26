@@ -13,6 +13,7 @@ int main(){
             if(arr[i]==arr[j]){
                 frequency++;
             }
+            break;
         }
         printf("%i %i\n",arr[i],frequency);
     }
