@@ -10,16 +10,21 @@ int main(){
     for(int i=0;i<n;i++){
         int frequency=0;
         int alreadycounted=0;
+
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
-                frequency++;
                 alreadycounted=1;
             }
-            if(alreadycounted){
-                break;
+        }
+        if(alreadycounted){
+            break;
+        }
+
+        for(int j=0;j<n;j++){
+            if(arr[i]=arr[j]){
+                frequency++;
             }
         }
-        
         printf("%i %i\n",arr[i],frequency);
     }
     return 0;
