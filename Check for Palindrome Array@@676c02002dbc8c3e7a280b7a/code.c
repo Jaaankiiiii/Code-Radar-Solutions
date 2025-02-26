@@ -4,7 +4,7 @@ int main(){
     scanf("%i",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%i",arr[i]);
+        scanf("%i",&arr[i]);
     }
     int reversed[n];
     int j=0;
