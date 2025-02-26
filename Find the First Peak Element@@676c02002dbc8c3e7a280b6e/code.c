@@ -11,9 +11,7 @@ int main(){
             printf("%i",arr[i+1]);
             return 0;
         }
-        else{
-            printf("-1");
-        }
     }
+    printf("-1");
     return 0;
 }
