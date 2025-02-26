@@ -11,10 +11,10 @@ int main(){
             printf("%i",arr[i+1]);
             return 0;
         }
-        // else if(arr[n-2]<arr[n-1]){
-        //     printf("%i",arr[n-1]);
-        //     return 0;
-        // }
+    }
+    if(n>1 && arr[n-2]<arr[n-1]){
+        printf("%i",arr[n-1]);
+        return 0;
     }
     printf("-1");
     return 0;
