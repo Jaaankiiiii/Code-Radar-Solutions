@@ -13,8 +13,8 @@ int main(){
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
                 frequency++;
+                alreadycounted=1;
             }
-            alreadycounted=1;
             if(alreadycounted){
                 break;
             }
