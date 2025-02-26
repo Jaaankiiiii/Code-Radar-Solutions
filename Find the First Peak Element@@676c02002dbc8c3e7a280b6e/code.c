@@ -4,7 +4,7 @@ int main(){
     scanf("%i",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%i\n",&arr[i]);
+        scanf("%i",&arr[i]);
     }
     for(int i=0;i<n-2;i++){
         if(arr[i]<arr[i+1] && arr[i+1]>arr[i+2]){
