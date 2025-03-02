@@ -17,11 +17,12 @@ int main(){
         for(int j=0;j<n;j++){
             freq++;
         }
-    }
-    if(freq=n/2){
+        if(freq=n/2){
         printf("%i",arr[i]);
-    }else{
+        }else{
         printf("-1");
+        }
     }
+
     return 0;
 }
