@@ -6,6 +6,11 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%i",&arr[i]);
     }
+
+    if(n<2){
+        printf("%i",arr[0]);
+        return 0;
+    }
     
     for(int i=0;i<n;i++){
         int freq=0;
@@ -17,4 +22,6 @@ int main(){
             return 0;
         }
     }
+    printf("-1");
+    return 0;
 }
