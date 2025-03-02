@@ -15,7 +15,6 @@ int main(){
             max=arr[i];
         }
     }
-    printf("%i",max);
 
     for(int i=0;i<n;i++){
         if(second_max<max && second_max<arr[i]){
