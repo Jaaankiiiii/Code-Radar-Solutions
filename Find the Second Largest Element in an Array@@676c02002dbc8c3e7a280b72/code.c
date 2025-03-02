@@ -20,6 +20,9 @@ int main(){
         if(second_max<max && second_max<arr[i]){
             second_max=arr[i];
         }
+        else{
+            printf("-1");
+        }
     }
     printf("%i",second_max);
     return 0;
