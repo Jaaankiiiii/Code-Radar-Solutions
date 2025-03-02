@@ -7,7 +7,7 @@ int main(){
         scanf("%i",&arr[i]);
     }
 
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         if(count==0){
             candidate=arr[i];
             count=1;
