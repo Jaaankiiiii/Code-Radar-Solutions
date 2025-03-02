@@ -14,6 +14,7 @@ int main(){
         }
         if(freq=n/2){
             printf("%i",arr[i]);
+            return 0;
         }
     }
 }
