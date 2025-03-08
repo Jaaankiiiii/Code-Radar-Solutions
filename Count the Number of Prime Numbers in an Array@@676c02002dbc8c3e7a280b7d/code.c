@@ -2,6 +2,8 @@
 int main(){
     int size;
     scanf("%i",&size);
+
+    int arr[n];
     for(int i=0; i<size; i++){
         scanf("%i",&arr[i]);
     }
