@@ -8,9 +8,9 @@ int main(){
         scanf("%i",&arr[i]);
     }
 
-    no_of_prime_number=0;
+    int no_of_prime_number=0;
     for(int i=0;i<size;i++){
-        factor=0;
+        int factor=0;
         if(arr[i]%i==0){
             factor++;
         }
