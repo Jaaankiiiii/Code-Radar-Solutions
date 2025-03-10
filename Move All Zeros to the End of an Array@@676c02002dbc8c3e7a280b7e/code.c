@@ -4,11 +4,11 @@ int main(){
     scanf("%i",&size);
 
     int arr[size];
-    for(int i=0; i<n ;i++){
+    for(int i=0; i<size ;i++){
         scanf("%i",&arr[i]);
     }
 
-    for(int i=0; i<n-1; i++){
+    for(int i=0; i<size-1; i++){
         if(arr[i]==0 || arr[i+1==0]){
             int temp=arr[i];
             arr[i]=arr[i+1];
