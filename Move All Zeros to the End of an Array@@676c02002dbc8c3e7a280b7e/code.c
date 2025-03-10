@@ -1,8 +1,13 @@
 #include <stdio.h>
 int main()
 {
-  int arr[5]={0,1,0,3,12};
-  int n=5;
+    int n;
+    scanf("%i",&n);
+
+    int arr[n];
+    for(int i=0; i<n;i++){
+        scanf("%i",&arr[i]);
+    }
   
   int *p=arr;
   int *q=arr;
