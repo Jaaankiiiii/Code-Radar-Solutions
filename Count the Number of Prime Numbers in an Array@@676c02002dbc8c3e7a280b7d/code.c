@@ -1,7 +1,7 @@
 #include <stdio.h>
 int is_prime(int num){
     int factor=0;
-    for(int i=1;i<=num;i++){
+    for(int i=1; i<=num ;i++){
         if(num%i==0){
             factor++;
         }
@@ -18,13 +18,13 @@ int main(){
     scanf("%i",&size);
 
     int arr[size];
-    for(int i=0;i<size;i++){
-        scanf("%i",&arr[i]);
+    for(int j=0; j<size; j++){
+        scanf("%i",&arr[j]);
     }
-    
+
     int prime_numbers=0
-    for(int i=0;i<size;i++){
-        if(is_prime(arr[i])){
+    for(int j=0; j<size; j++){
+        if(is_prime(arr[j])){
             prime_numbers++;
         }
     }
