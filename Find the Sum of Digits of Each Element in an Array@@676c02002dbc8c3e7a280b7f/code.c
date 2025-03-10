@@ -12,11 +12,12 @@ int main(){
 
     for(int i=0; i<size; i++){
         int sum=0;
+        int temp;
         if(arr[i]>0){
-            int temp=arr[i];
+            temp=arr[i];
         }
         else if(arr[i]<0){
-            int temp=-arr[i];
+            temp=-arr[i];
         }
         while(temp>0){
             remainder=temp%10;
