@@ -10,7 +10,12 @@ int main(){
 
     int max=arr[0];
     for(int i=0; i<size; i++){
-        if(arr[i]>max){
+        if(arr[i]<0){
+            if(max>arr[i]){
+                arr[i]=max;
+            }
+        }
+        else if(arr[i]>max){
             max=arr[i];
         }
     }
