@@ -22,7 +22,7 @@ int main(){
         scanf("%i",&arr[j]);
     }
 
-    int prime_numbers=0
+    int prime_numbers=0;
     for(int j=0; j<size; j++){
         if(is_prime(arr[j])){
             prime_numbers++;
