@@ -12,8 +12,10 @@ int main(){
 
     for(int i=0; i<size; i++){
         int sum=0;
-        int temp=arr[i];
-        if(arr[i]<0){
+        if(arr[i]>0){
+            int temp=arr[i];
+        }
+        else if(arr[i]<0){
             int temp=-arr[i];
         }
         while(temp>0){
