@@ -22,7 +22,12 @@ int main(){
 
     int second_max=arr[0];
     for(int i=0; i<size; i++){
-        if(arr[i]>second_max && arr[i]<max){
+        if(arr[i]<0){
+            if(second_max>arr[i] &&arr[i]>max){
+                second_max=arr[i];
+            }
+        }
+        else if(arr[i]>second_max && arr[i]<max){
             second_max=arr[i];
         }
     }
