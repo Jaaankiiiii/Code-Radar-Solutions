@@ -10,6 +10,7 @@ int main(){
     int remainder=0;
     int count=0;
     for(int i=0; i<size; i++){
+        int reversed_no;
         int num;
         num=arr[i];
         remainder=num%10;
