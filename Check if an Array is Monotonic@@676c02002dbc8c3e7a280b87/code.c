@@ -25,7 +25,7 @@ int main(){
             dec--;
         }
     }
-    if(inc==size || dec==size){
+    if(inc==size-1 || dec==size-1){
         printf("YES");
     }
     else{
