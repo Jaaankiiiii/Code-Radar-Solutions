@@ -15,7 +15,7 @@ int main(){
     }
 
     for(int i=0; i<j; i++){
-        printf("%i",arr[i]);
+        printf("%i ",arr[i]);
     }
     return 0;
 }
