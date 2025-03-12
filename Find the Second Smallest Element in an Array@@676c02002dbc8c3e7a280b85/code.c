@@ -9,7 +9,7 @@ int main(){
     }
 
     int min=arr[0];
-    int second_min=arr[0];
+    int second_min=__INT_MAX__;
     for(int i=0; i<size; i++){
         if(arr[i]<=min){
             min=arr[i];
@@ -21,7 +21,11 @@ int main(){
             second_min=arr[i];
         }
     }
-    printf("%i",second_min);
+    if(second_min==__INT_MAX__){
+        printf("-1");
+    }else{
+        printf("%i",second_min);
+    }
     return 0;
     
 }
