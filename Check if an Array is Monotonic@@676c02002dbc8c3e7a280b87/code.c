@@ -7,16 +7,27 @@ int main(){
     for(int i=0; i<size; i++){
         scanf("%i",&arr[i]);
     }
-    int count=0;
+    int inc=0;
+    int dec==0;
     for(int i=0; i<size-1; i++){
-        if(arr[i]>=arr[i+1] || arr[i]<=arr[i+1]){
-            count++;
+        if(arr[i]>=arr[i+1]){
+            inc++;
         }
         else{
-            count--;
+            inc--;
         }
     }
-    if(count==size){
+    for(int i=0; i<size-1; i++){
+        if(arr[i]<=arr[i+1]){
+            dec++;
+        }
+        else{
+            dec--;
+        }
+    }
+    
+    }
+    if(inc==size || dec==size){
         printf("YES");
     }
     else{
