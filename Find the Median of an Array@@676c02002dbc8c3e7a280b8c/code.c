@@ -17,7 +17,7 @@ int main(){
             }
         }
     }
-    int median=arr[0];
+    int median=0;
     if(!(N%2==0)){
         int element=(N+1)/2;
         median=arr[element];
