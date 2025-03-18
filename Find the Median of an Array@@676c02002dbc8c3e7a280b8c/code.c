@@ -23,7 +23,7 @@ int main(){
         median=arr[element];
     }
 
-    else if(N%2==0){
+    else{
         int left=N/2;
         int right=(N/2)+1;
         median=(arr[left]+arr[right])/2;
