@@ -13,9 +13,10 @@ int main(){
 
     for(int i=0;i<N;i++){
         for(int j=i;j<N;j++){
-            if(arr[i]+arr[j]==T){
-                printf("%i %i\n",arr[i],arr[j]);
-            }
+            if(arr[i]!=arr[j])
+                if(arr[i]+arr[j]==T){
+                    printf("%i %i\n",arr[i],arr[j]);
+                }
         }
 
     }
