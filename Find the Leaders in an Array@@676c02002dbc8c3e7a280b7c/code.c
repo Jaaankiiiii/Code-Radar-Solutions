@@ -18,7 +18,7 @@ int main(){
                 count--;
             }
         }
-        if(count==N-i+1){
+        if(count==N-i){
             printf("%i",arr[i]);
         }
     }
