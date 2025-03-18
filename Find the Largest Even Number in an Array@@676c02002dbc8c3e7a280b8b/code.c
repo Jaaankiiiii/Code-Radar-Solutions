@@ -17,6 +17,11 @@ int main()
             }
         }
     }
-    printf("%i",max);
+    if(max%2==0){
+        printf("%i",max);
+    }
+    else{
+        printf("-1");
+    }
     return 0;
 }
