@@ -8,9 +8,18 @@ int main(){
         scanf("%i",&arr[i]);
     }
 
-    for(int i=0; i<N-1; i++){
-        if(arr[i+1]>=arr[i]){
-            printf("%i ",arr[i+1]);
+    for(int i=0; i<N; i++){
+        int count=0;
+        for(int j=i+1;j<N;j++){
+            if(arr[i]>arr[j]){
+                count++;
+            }
+            else{
+                count--;
+            }
+        }
+        if(count==N-i+1){
+            printf("%i",arr[i]);
         }
     }
 }
