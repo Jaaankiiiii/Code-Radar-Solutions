@@ -15,8 +15,8 @@ int main(){
                 freq++;
             }
         }
-        if(freq>1){
-            printf("%i",arr[j]);
+        if(freq>=2){
+            printf("%i",arr[i]);
             return 0;
         }
     }
