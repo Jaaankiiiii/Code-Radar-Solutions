@@ -19,13 +19,13 @@ int main(){
     }
     int median=0;
     if(!(N%2==0)){
-        int element=(N+1)/2;
+        int element=N/2;
         median=arr[element];
     }
 
     else{
-        int left=N/2;
-        int right=(N/2)+1;
+        int left=N/2-1;
+        int right=N/2;
         median=(arr[left]+arr[right])/2;
     }
     printf("%i",median);
