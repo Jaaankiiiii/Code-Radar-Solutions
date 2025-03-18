@@ -11,22 +11,10 @@ int main(){
     int T;
     scanf("%i",&T);
 
-    for(int i=0; i<N-i; i++){
-        for(int j=0; j<N-i-1; j++){
-            if(arr[j]>arr[j+1]){
-                int temp=arr[j];
-                arr[j]=arr[j+1];
-                arr[j+1]=temp;
-            }
-        }
-    }
-
     for(int i=0;i<N;i++){
-
         if(i>0 && arr[i]==arr[i-1]){
             continue;
         }
-
         for(int j=i+1;j<N;j++){
             if(arr[i]+arr[j]==T){
                 printf("%i %i\n",arr[i],arr[j]);
