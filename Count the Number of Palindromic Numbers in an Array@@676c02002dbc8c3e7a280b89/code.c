@@ -7,17 +7,18 @@ int main(){
     for(int i=0; i<size; i++){
         scanf("%i",&arr[i]);
     }
-    int remainder=0;
+    int remainder;
     int count=0;
     int reversed_no=0;
     for(int i=0; i<size; i++){
-        int num=0;
+        int num,original_no;
+        original_no=arr[i];
         num=arr[i];
         remainder=num%10;
         num=num/10;
          
         reversed_no=reversed_no*10+remainder;
-        if(num==reversed_no){
+        if(original_no==reversed_no){
             count++;
         }
     }
