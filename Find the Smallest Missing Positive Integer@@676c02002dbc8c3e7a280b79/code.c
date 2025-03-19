@@ -27,7 +27,7 @@ int main()
             return 0;
         }
     }
-    printf("%i",arr[N-1]+1);
+    printf("%i",1+arr[N-1]);
     return 0;
     
 }
