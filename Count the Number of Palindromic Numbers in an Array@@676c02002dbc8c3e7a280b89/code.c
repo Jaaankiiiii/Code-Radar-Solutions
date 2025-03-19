@@ -14,10 +14,13 @@ int main(){
         int num,original_no;
         original_no=arr[i];
         num=arr[i];
-        remainder=num%10;
-        num=num/10;
-         
-        reversed_no=reversed_no*10+remainder;
+
+        while(num>0){
+            remainder=num%10;
+            num=num/10;
+            reversed_no=reversed_no*10+remainder;
+        }
+        
         if(original_no==reversed_no){
             count++;
         }
