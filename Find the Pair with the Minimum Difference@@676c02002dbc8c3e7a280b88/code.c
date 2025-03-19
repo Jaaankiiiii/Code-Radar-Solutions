@@ -6,7 +6,7 @@ int main()
 
     int arr[N];
     for(int i=0; i<N; i++){
-        scanf("%i",arr[i]);
+        scanf("%i",&arr[i]);
     }
     for(int i=0; i<N-i; i++){
         for(int j=0; j<N-i-1; j++){
@@ -31,4 +31,5 @@ int main()
             right=arr[i+1];
         }
     }
+    printf("%i %i",left,right);
 }
