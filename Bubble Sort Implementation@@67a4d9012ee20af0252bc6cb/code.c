@@ -1,14 +1,6 @@
 #include <stdio.h>
-int main(){
-    int n;
-    scanf("%i", &n);
 
-    int arr[n];
-    for(int i=0; i<n; i++){
-        scanf("%i",&arr[i]);
-    }
-
-    void bubbleSort(int arr,int n)
+void bubbleSort(int arr,int n)
     {
 
         for(int i=0;i<n;i++){
@@ -25,6 +17,15 @@ int main(){
             printf("%i ",arr[i]);
         }
     }
+int main(){
+    int n;
+    scanf("%i", &n);
+
+    int arr[n];
+    for(int i=0; i<n; i++){
+        scanf("%i",&arr[i]);
+    }
+
     bubbleSort(arr,n);
     printArray(arr,n);
     return 0;
