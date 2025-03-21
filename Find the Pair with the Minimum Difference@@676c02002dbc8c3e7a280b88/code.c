@@ -8,7 +8,10 @@ int main()
     for(int i=0; i<N; i++){
         scanf("%i",&arr[i]);
     }
-
+    if(N<2){
+        printf("-1");
+        break;
+    }
     //sorting; 
     for(int i=0; i<N; i++){
         for(int j=0; j<N-i-1; j++){
