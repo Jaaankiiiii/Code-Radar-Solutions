@@ -14,7 +14,7 @@ int main()
 
     for(int i=0; i<N; i++){
         int freq=0;
-        for(int i=0; i<N; i++){
+        for(int j=0; j<N; j++){
             if(arr[i]==arr[j]){
                 freq++;
             }
