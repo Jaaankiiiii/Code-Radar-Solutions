@@ -13,7 +13,7 @@ int main()
     int max_arr=arr[0];
 
     for(int i=0; i<N; i++){
-        freq=0;
+        int freq=0;
         for(int i=0; i<N; i++){
             if(arr[i]==arr[j]){
                 freq++;
