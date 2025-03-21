@@ -8,7 +8,7 @@ int main(){
         scanf("%i",&arr[i]);
     }
 
-    void bubbleSort(arr, n)
+    void bubbleSort(int arr,int n)
     {
 
         for(int i=0;i<n;i++){
@@ -20,7 +20,7 @@ int main(){
         }
     }
 
-    void printArray(arr, n){
+    void printArray(int arr,int n){
         for(int i=0; i<n; i++){
             printf("%i ",arr[i]);
         }
