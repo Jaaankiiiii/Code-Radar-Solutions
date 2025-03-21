@@ -10,7 +10,7 @@ int main()
     }
     if(N<2){
         printf("-1");
-        break;
+        return 0;
     }
     //sorting; 
     for(int i=0; i<N; i++){
