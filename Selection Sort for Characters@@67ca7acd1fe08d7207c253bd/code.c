@@ -1,4 +1,4 @@
-void selectionSort(int arr[],int size){
+void selectionSort(char arr[],int size){
     for(int i=0; i<size; i++){
         int min=i;
         for(int j=0; j<size; j++){
