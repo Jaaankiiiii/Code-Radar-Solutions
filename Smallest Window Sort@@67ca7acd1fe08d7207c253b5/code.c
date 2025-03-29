@@ -4,10 +4,7 @@ void findUnsortedSubarray(int arr[], int size)
     for(int i=0; i<size; i++){
         if(arr[i]>arr[i+1]){
             length=size-1-i;
-            printf("%i",length);
-        }
-        else{
-            continue;
+            return length;
         }
     }
 }
