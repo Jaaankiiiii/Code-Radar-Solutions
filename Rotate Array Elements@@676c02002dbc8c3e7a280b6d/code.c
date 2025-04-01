@@ -50,9 +50,8 @@ int main() {
     // Output: rotated array
     
     for (int i = 0; i < N; i++) {
-        printf("%d \n", arr[i]);
+        printf("%d\n", arr[i]);
     }
-    printf("\n");
 
     return 0;
 }
