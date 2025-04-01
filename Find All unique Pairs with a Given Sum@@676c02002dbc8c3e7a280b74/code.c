@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int compare(const void *a, const void *b) {
-    return (*(int *)a - *(int *)b; // Comparison function for qsort
+    return (*(int *)a - *(int *)b); // Comparison function for qsort
 }
 
 void findUniquePairs(int arr[], int size, int target) {
