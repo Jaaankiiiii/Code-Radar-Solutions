@@ -35,7 +35,7 @@ void findUniquePairs(int arr[], int size, int target) {
     }
 
     if (!foundPairs) {
-        printf("No unique pairs found.\n");
+        return;
     }
 }
 
