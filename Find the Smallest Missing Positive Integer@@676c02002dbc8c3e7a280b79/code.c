@@ -1,33 +1,45 @@
 #include <stdio.h>
-int main()
-{
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int findSmallestMissingPositive(int arr[], int size) {
+    // Rearrange the array
+    for (int i = 0; i < size; i++) {
+        while (arr[i] > 0 && arr[i] <= size && arr[arr[i] - 1] != arr[i]) {
+            swap(&arr[i], &arr[arr[i] - 1]);
+        }
+    }
+
+    // Find the first missing positive integer
+    for (int i = 0; i < size; i++) {
+        if (arr[i] != i + 1) {
+            return i + 1; // Return the first missing positive integer
+        }
+    }
+
+    return size + 1; // If all integers from 1 to size are present
+}
+
+int main() {
     int N;
-    scanf("%i",&N);
+
+    // Input: size of the array
+    scanf("%d", &N);
 
     int arr[N];
-    for(int i=0; i<N; i++){
-        scanf("%i",&arr[i]);
+
+    // Input: array elements
+    for (int i = 0; i < N; i++) {
+        scanf("%d", &arr[i]);
     }
 
-    //sorting 
-    for(int i=0; i<N-i; i++){
-        for(int j=0; j<N-i-1; j++){
-            if(arr[j]<arr[i]){
-                int temp=arr[j];
-                arr[j]=arr[i];
-                arr[i]=temp;
-            }
-        }
-    }
+    // Find and output the smallest missing positive integer
+    int result = findSmallestMissingPositive(arr, N);
+    printf("%d\n", result);
 
-    //missing postive integer
-    for(int i=0; i<N-1; i++){
-        if(arr[i]>=0 && !(arr[i]==arr[i+1]+1)){
-            printf("%i",arr[i]+1);
-            return 0;
-        }
-    }
-    printf("%i",1+arr[N-1]);
     return 0;
-    
 }
