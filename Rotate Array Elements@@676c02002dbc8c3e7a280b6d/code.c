@@ -28,29 +28,29 @@ int main() {
     int N;
 
     // Input: size of the array
-    printf("Enter the size of the array: ");
+ 
     scanf("%d", &N);
 
     int arr[N];
 
     // Input: array elements
-    printf("Enter the array elements: ");
+ 
     for (int i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
     }
 
     int K;
     // Input: number of positions to rotate
-    printf("Enter the number of positions to rotate: ");
+
     scanf("%d", &K);
 
     // Rotate the array
     rotateArray(arr, N, K);
 
     // Output: rotated array
-    printf("Rotated array: ");
+    
     for (int i = 0; i < N; i++) {
-        printf("%d ", arr[i]);
+        printf("%d \n", arr[i]);
     }
     printf("\n");
 
