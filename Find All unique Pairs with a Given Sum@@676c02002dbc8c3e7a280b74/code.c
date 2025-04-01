@@ -50,7 +50,6 @@ int main() {
     scanf("%d", &T);
 
     // Find and output unique pairs
-    printf("%d:\n", T);
     findUniquePairs(arr, N, T);
 
     return 0;
